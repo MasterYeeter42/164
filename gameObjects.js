@@ -114,7 +114,7 @@ AFRAME.registerComponent("boxes", {
       position = { x: posX, y: posY, z: posZ };
 
       box.setAttribute("id", "box" + i);
-      //box.className += " targets";
+      
       box.setAttribute("position", position);
 
       box.setAttribute("geometry", {
