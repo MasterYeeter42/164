@@ -106,9 +106,10 @@ AFRAME.registerComponent("boxes", {
     for (var i = 0; i < 20; i++) {
       var box = document.createElement("a-entity");
 
-      posX = px[i];
-      posY = 1.5;
-      posZ = pz[i];
+      //Update the position variables values from the array values.
+      posX ;
+      posY ;
+      posZ ;
 
       position = { x: posX, y: posY, z: posZ };
 
